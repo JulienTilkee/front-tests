@@ -35,10 +35,9 @@ describe('AppComponent', () => {
 
  // apparement pas utile par rapport au branch coverage code
  it('should render image in a section > p tag', () => {
-  const fixture = TestBed.createComponent(AppComponent);
-  fixture.detectChanges();
-  const compiled = fixture.debugElement.nativeElement;
-  expect(compiled.querySelector('section>p').textContent).toContain('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png');
-}); 
-  
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('section>p').textContent).toContain('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png');
+  }); 
 });

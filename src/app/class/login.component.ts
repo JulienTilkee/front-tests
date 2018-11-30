@@ -3,7 +3,9 @@ import {AuthService} from "./auth-service";
 
 @Component({
   selector: 'app-login',
-  template: `<a [hidden]="needsLogin()">Login</a>`
+  template: `
+    <a [hidden]="needsLogin()">Login</a>
+`
 })
 export class LoginComponent {
 
