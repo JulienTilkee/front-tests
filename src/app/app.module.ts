@@ -12,7 +12,6 @@ import { DefaultPipe } from './pipe/default.pipe';
   imports: [
     BrowserModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
