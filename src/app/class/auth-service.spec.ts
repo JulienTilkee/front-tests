@@ -16,11 +16,11 @@ describe('AuthService', () => {
     //Create the test specs
     it('should return true from isAuthenficated when there is a token', () => {
         localStorage.setItem('token', '1234');
-        expect(service.isAuthentificated()).toBeTruthy();
+        expect(service.isAuthenticated()).toBeTruthy();
     });
     //or
     it('should return false from isAuthenficated when there is no token', () => {
-        expect(service.isAuthentificated()).toBeFalsy();
+        expect(service.isAuthenticated()).toBeFalsy();
     });
     
 });
